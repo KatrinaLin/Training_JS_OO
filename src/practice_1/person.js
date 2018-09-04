@@ -5,6 +5,6 @@ export default class Person {
     }
 
     introduce() {
-        return "My name is Tom. I am 21 years old."
+        return `My name is ${this.name}. I am ${this.age} years old.`
     }
 }
