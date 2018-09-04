@@ -8,5 +8,3 @@ export default class Person {
         return `My name is ${this.name}. I am ${this.age} years old.`;
     }
 }
-
-
