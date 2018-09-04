@@ -7,7 +7,7 @@ export default class Student extends Person{
     }
 
     introduce() {
-        return `${this.basic_introduce()} I am a Student. I am at Class ${this.klass}.`
+        return `${super.basic_introduce()} I am a Student. I am at Class ${this.klass}.`
     }
 }
 
