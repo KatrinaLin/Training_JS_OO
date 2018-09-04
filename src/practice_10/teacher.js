@@ -18,4 +18,8 @@ export default class Teacher extends Person{
     getClasses() {
         return this.klasses.map(x => x.number).join(", ");
     }
+
+    isTeaching(student) {
+        return this.klasses.includes(student.klass);
+    }
 }
